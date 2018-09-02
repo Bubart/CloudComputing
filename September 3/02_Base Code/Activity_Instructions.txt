@@ -1,0 +1,24 @@
+Goals:
+	- To be able to implement the javascript files.
+	- To be able to complete the implementation for 'Register Dish' Screen.
+	
+Things to be implemented:
+1. File location: js/bentoDish.js
+	1.1. Function: changeTypeImage()
+		This function is used to change the image of the 'dish' type depending on the
+		selected type.
+	
+	1.2. Function: validateDishNameExists()
+		This function is used to check if the inputted 'dish' name already exists in the
+		dishArray array. The array is traversed to look for the same 'dish' name.
+		If same name was found from the array, an alert will be displayed. This function returns 'true' if 
+		the 'dish' name does not exists in the array.
+			
+			
+	1.3. Function: registerDish()	
+		This function is used to insert a 'dish' item to the 'dishArray' array. There will be confirmation
+		from the user before inserting the item. There will be a validation of the name if it exists in the 'dishArray' array
+		using the validateNameExists() function. After the validation, the item is added to the 'dishArray' array.
+		NOTE:
+			A dish contains: id, name, type, price
+			This data is got from the screen.
